@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="./web/styles/base.css"/>
+        <link rel="stylesheet" href="./web/styles/carousel.css"/>
+        <link rel="stylesheet" href="./web/styles/navbar.css"/>
+        <link rel="stylesheet" href="./web/styles/menu.css"/>
+        <link rel="stylesheet" href="./web/styles/informs.css"/>
+        <link rel="stylesheet" href="./web/styles/cards-informs.css"/>
+        <link rel="stylesheet" href="./web/styles/footer.css"/>
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <title>Projeto Final M2</title>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <h1>Projeto Final M2</h1>
+                <div class="navegation">
+                    <a href="index.html">Página Inicial</a>
+                    <a href="./web/pages/about.html">Sobre</a>
+                    <a href="./web/pages/actions.html">Ações</a>
+                    <a href="./web/pages/contact.html">Contato</a>
+                </div>
+                <button id="menu-hamburger"><i class="ph-fill ph-list"></i></button>
+            </nav>
+            <div id="menu" class="menu">
+                <ul>
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="./web/pages/about.html">Sobre</a></li>
+                    <li><a href="./web/pages/actions.html">Ações</a></li>
+                    <li><a href="./web/pages/contact.html">Contato</a></li>
+                </u>
+            </div>
+        </header>
+        <section class="slider">
+            <div class="slider-content">
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <div class="slide-box primeiro">
+                    <img class="img-desktop" src="./src/img/Screenshot (1).png" alt="slide 1">
+                    <img class="img-mobile" src="./src/img/Screenshot (1).png" alt="slide 1">
+                </div>
+                <div class="slide-box">
+                    <img class="img-desktop" src="./src/img/Screenshot (2).png" alt="slide 3">
+                    <img class="img-mobile" src="./src/img/Screenshot (2).png" alt="slide 1">
+                </div>
+                <div class="slide-box">
+                    <img class="img-desktop" src="./src/img/Screenshot (3).png" alt="slide 3">
+                    <img class="img-mobile" src="./src/img/Screenshot (3).png" alt="slide 3">
+                </div>
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>
+        <section class="card-informs">
+            <div id="card-1">
+                <img src="foto-1" alt="">
+            </div>
+            <div id="card-2">
+                <img src="foto-2" alt="">
+            </div>
+            <div id="card-2">
+                <img src="foto-3" alt="">
+            </div>
+        </section>
+        <section class="informs">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum non placeat temporibus repellendus dolores, possimus impedit enim facilis. Officiis quis numquam possimus, deserunt doloribus distinctio voluptas qui aspernatur tempora provident.</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptatem commodi doloribus, dolor porro ratione in, quam repellendus mollitia deserunt totam praesentium! Beatae vel modi magnam, soluta maxime nam aspernatur.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus, similique vitae reprehenderit in doloremque. Omnis, fugiat eveniet! Deleniti est qui nobis ipsum maxime rem hic quisquam quis nisi? Quod.</p>
+            <button>donate now</button>
+            <img src="foto-sem-fundo" alt="">
+        </section>
+        <section class="statistics-cards"></section>
+        <section class="donate"></section>
+        <section class="gallery"></section>
+        <footer></footer>
+
+        <script src="./web/main.js"></script>
+        <script src="./web/carousel.js"></script>
+        <script src="./web/menu.js"></script>
+    </body>
+</html>

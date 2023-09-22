@@ -1,0 +1,39 @@
+.menu {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24pt;
+    z-index: 98;
+}
+
+.menu-hidden {
+    display: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24pt;
+}
+
+ul {
+    list-style: none;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    margin-top: 15px;
+}
