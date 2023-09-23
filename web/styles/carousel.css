@@ -70,7 +70,6 @@ section.slider{
 
 section h2{
     font-size: 2em;
-    margin-bottom: 25px;
 }
 
 section p{
@@ -79,10 +78,9 @@ section p{
 
 section{
     padding: 90px 4%;
-    border-bottom: 1px solid #ccc;
 }
 
-@media screen and (max-width: 900px) {
+@media (min-width: 344px) and (max-width: 450px) {
     .img-desktop{
         display: none;
     }
@@ -103,3 +101,67 @@ section{
         height: 100vh;
     }
 }
+
+@media (min-width: 375px) {
+    .nav-auto, .nav-manual{
+        margin-top: 160%;
+    }
+
+    .slide-box img{
+        height: 100vh;
+    }
+}
+
+@media (min-width: 320px) {
+    .nav-auto, .nav-manual{
+        margin-top: 160%;
+    }
+
+    section.slider{
+        height: 100vh;
+    }
+
+    .slide-box img{
+        height: 100vh;
+    }
+
+}
+
+@media (min-width: 780px) {
+    .nav-auto, .nav-manual{
+        margin-top: 125%;
+    }
+
+    section.slider{
+        height: 100vh;
+    }
+
+    .slide-box img{
+        height: 100vh;
+    }
+}
+
+@media (min-width: 850px) {
+    .nav-auto, .nav-manual{
+        margin-top: 135%;
+    }
+
+    section.slider{
+        height: 100vh;
+    }
+
+    .slide-box img{
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .nav-auto, .nav-manual{
+        margin-top: 95%;
+    }
+
+    .slide-box img{
+        height: 75vh;
+    }
+}
+
