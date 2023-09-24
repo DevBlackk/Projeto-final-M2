@@ -8,7 +8,7 @@ section.slider{
 
 .slider-content{
     width: 400%;
-    height: auto;
+    height: 75vh;
     display: flex;
 }
 
@@ -18,7 +18,7 @@ section.slider{
 
 .slide-box{
     width: 25%;
-    height: auto;
+    height: 75vh;
     position: relative;
     text-align: center;
     transition: 1s;
@@ -26,34 +26,7 @@ section.slider{
 
 .slide-box img{
     width: 100%;
-}
-
-.nav-manual, .nav-auto{
-    position: absolute;
-    width: 100%;
-    margin-top: 35%;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #ff0054;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
-    margin-right: 10px;
-}
-
-.nav-manual .manual-btn:hover{
-    background-color: #ff0054;
-}
-
-#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color: #ff0054;
+    height: 75vh;
 }
 
 #radio1:checked ~ .primeiro{
@@ -90,16 +63,5 @@ section{
     .img-mobile{
         display: block;
     }
-
-    .nav-auto, .nav-manual{
-        margin-top: 200%;
-    }
-
-    section.slider{
-        height: 100vh;
-    }
-
-    .slide-box img{
-        height: 100vh;
-    }
 }
+
