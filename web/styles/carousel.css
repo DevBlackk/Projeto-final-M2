@@ -8,7 +8,7 @@ section.slider{
 
 .slider-content{
     width: 400%;
-    height: auto;
+    height: 75vh;
     display: flex;
 }
 
@@ -18,7 +18,7 @@ section.slider{
 
 .slide-box{
     width: 25%;
-    height: auto;
+    height: 75vh;
     position: relative;
     text-align: center;
     transition: 1s;
@@ -26,34 +26,7 @@ section.slider{
 
 .slide-box img{
     width: 100%;
-}
-
-.nav-manual, .nav-auto{
-    position: absolute;
-    width: 100%;
-    margin-top: 35%;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #ff0054;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
-    margin-right: 10px;
-}
-
-.nav-manual .manual-btn:hover{
-    background-color: #ff0054;
-}
-
-#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color: #ff0054;
+    height: 75vh;
 }
 
 #radio1:checked ~ .primeiro{
@@ -70,6 +43,7 @@ section.slider{
 
 section h2{
     font-size: 2em;
+    margin-bottom: 25px;
 }
 
 section p{
@@ -78,90 +52,16 @@ section p{
 
 section{
     padding: 90px 4%;
+    border-bottom: 1px solid #ccc;
 }
 
-@media (min-width: 344px) and (max-width: 450px) {
+@media screen and (max-width: 900px) {
     .img-desktop{
         display: none;
     }
 
     .img-mobile{
         display: block;
-    }
-
-    .nav-auto, .nav-manual{
-        margin-top: 200%;
-    }
-
-    section.slider{
-        height: 100vh;
-    }
-
-    .slide-box img{
-        height: 100vh;
-    }
-}
-
-@media (min-width: 375px) {
-    .nav-auto, .nav-manual{
-        margin-top: 160%;
-    }
-
-    .slide-box img{
-        height: 100vh;
-    }
-}
-
-@media (min-width: 320px) {
-    .nav-auto, .nav-manual{
-        margin-top: 160%;
-    }
-
-    section.slider{
-        height: 100vh;
-    }
-
-    .slide-box img{
-        height: 100vh;
-    }
-
-}
-
-@media (min-width: 780px) {
-    .nav-auto, .nav-manual{
-        margin-top: 125%;
-    }
-
-    section.slider{
-        height: 100vh;
-    }
-
-    .slide-box img{
-        height: 100vh;
-    }
-}
-
-@media (min-width: 850px) {
-    .nav-auto, .nav-manual{
-        margin-top: 135%;
-    }
-
-    section.slider{
-        height: 100vh;
-    }
-
-    .slide-box img{
-        height: 100vh;
-    }
-}
-
-@media only screen and (min-width: 1080px) {
-    .nav-auto, .nav-manual{
-        margin-top: 95%;
-    }
-
-    .slide-box img{
-        height: 75vh;
     }
 }
 
