@@ -1,3 +1,17 @@
 .card-informs{
     background-color: #ffd48b;
 }
+
+.card-1 {
+    background-image: url(../../src/img/Screenshot1.png);
+    background-size: cover;
+    width: 330px;
+    height: 250px;
+}
+
+.card-2 {
+    background-image: url(../../src/img/Screenshot2.png);
+    background-size: cover;
+    width: 330px;
+    height: 250px;
+}
