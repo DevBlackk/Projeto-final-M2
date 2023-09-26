@@ -1,0 +1,18 @@
+footer{
+    background-color: #24262b;
+    display:flex ;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer h4{
+
+}
+
+.footer-col{
+    align-items: center;
+    text-align: center;
+}
