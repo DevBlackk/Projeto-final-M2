@@ -1,0 +1,11 @@
+footer {
+    background-color: yellow;
+    
+}
+
+.footer-copyright {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
