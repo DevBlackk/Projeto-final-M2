@@ -1,6 +1,16 @@
-footer {
-    background-color: yellow;
-    
+footer{
+    background-color: #24262b;
+    display:flex ;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.footer-col{
+    align-items: center;
+    text-align: center;
 }
 
 .footer-copyright {
