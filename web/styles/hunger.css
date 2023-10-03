@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Phudu', sans-serif;
+}
+
+.box{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://images.pexels.com/photos/8078389/pexels-photo-8078389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.list{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-flex;
+  margin-left: 60px;
+  color: crimson;
+  font-size: 20px;
+}
+
+.line{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.l{
+  flex-basis: 50%;
+
+}
+
+h1{
+  font-size: 100px ;
+  color: brown;
+
+}
+
+p{
+  color: brown;
+  font-size: 26px;
+  line-height: 15px;
+}
+
+.kids{
+  cursor: pointer;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  margin: 10px 15px;
+  background-image: url("https://images.pexels.com/photos/18424470/pexels-photo-18424470/free-photo-of-vista-traseira-crianca-filho-sombrio.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  background-size: cover;
+}
+
+.k0{
+  background-image: url("https://images.pexels.com/photos/18424470/pexels-photo-18424470/free-photo-of-vista-traseira-crianca-filho-sombrio.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+}
+
+.k1{
+  background-image: url("https://images.pexels.com/photos/8078494/pexels-photo-8078494.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+}
+
+.k2{
+  background-image: url("https://images.pexels.com/photos/3019401/pexels-photo-3019401.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+}
+
+.k3{
+  background-image: url("https://images.pexels.com/photos/4874451/pexels-photo-4874451.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+}
+
+.k4{
+  background-image: url("https://images.pexels.com/photos/9533032/pexels-photo-9533032.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+}
+
+.k5{
+  background-image: url("https://images.pexels.com/photos/17489808/pexels-photo-17489808/free-photo-of-acao-atividade-movimento-adulto.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+}
