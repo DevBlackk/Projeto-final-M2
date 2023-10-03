@@ -1,0 +1,114 @@
+.card-informs{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-1 {
+    background: linear-gradient(rgba(194, 37, 37, 0.7), rgba(210, 48, 48, 0.7)),url(../../src/img/exemplo1.jpg);
+    background-size: cover;
+    width: 330px;
+    border-radius: 15px;
+    height: 250px;
+    margin-top: -120px;
+    z-index: 2;
+    color: white;
+    
+}
+
+.card-2 {
+    background: linear-gradient(rgba(195, 186, 20, 0.7), rgba(188, 175, 27, 0.7)),url(../../src/img/exemplo3.jpg);
+    background-size: cover;
+    width: 350px;
+    border-radius: 20px;
+    height: 300px;
+    margin-top: -140px;
+    z-index: 2;
+    color: white;
+    
+}
+.card-3 {
+    background: linear-gradient(rgba(19, 101, 42, 0.7), rgba(23, 105, 49, 0.7)),url(../../src/img/exemplo2jpg.jpg);
+    background-size: cover;
+    width: 330px;
+    border-radius: 15px;
+    height: 250px;
+    margin-top: -120px;
+    z-index: 2;
+    color: white; 
+}
+
+.title_cards {
+    margin-top: 50%;
+    margin-left: 10%;
+}
+
+.text_donate {
+    display: none;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: #3498db;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cards:hover {
+    background: linear-gradient(red, red);
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
+.card-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 16px;
+  margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+    .card-informs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-1 {
+        z-index: 0;
+        margin: 0;
+        grid-column: span 1; 
+        grid-row: span 1; 
+    }
+
+    .card-2 {
+        z-index: 0;
+        margin: 0;
+        grid-column: span 1; 
+        grid-row: span 1; 
+    }
+
+    .card-3 {
+        z-index: 0;
+        margin: 0;
+        grid-column: span 2; 
+        grid-row: span 1; 
+    }
+    
+}
+
+@media screen and (max-width: 200px) {
+    .cards {
+        width: 150px;
+        height: 150px;
+
+        font-size: 8pt;
+    }
+}
