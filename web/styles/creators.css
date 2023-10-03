@@ -18,7 +18,6 @@ header{
     box-shadow: 0 0.1rem 0.5rem #ccc;
     top:0;
 }
-
 .navegation{
     display: flex;
     flex-direction: row;
@@ -59,15 +58,14 @@ header{
 
 }
 .cards-creators{
-    display: flex;
-    flex-direction:row;
+    display:flex;
+    flex-direction: row;
     background-color: #FF4500;
     justify-content:center ;
 }
-.cards-container{
+#container{
     display: flex;
-    flex-wrap: wrap;
-    flex: 0 1 calc(30.33% - 30px);
+    flex-direction: row;
     justify-content: space-around;
     max-width: 100%;
     box-sizing: border-box;
@@ -84,15 +82,17 @@ header{
     flex-direction:column;
     justify-content: space-between;
     background: #fff;
+    align-items: center;
+
 }
 .card img{
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 .card button{
-    padding: 10px 0;
-    width: 70%;
+    height: 30px;
+    width: 140px;
     border: none;
     border-radius: .5rem;
     background-color: #FF4500;
@@ -100,7 +100,9 @@ header{
     cursor: pointer;
 }
 .agradecimentos{
-    height: 50vh;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
     margin-top: 1rem;
     padding: 1rem;
 }
