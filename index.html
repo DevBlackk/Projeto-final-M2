@@ -7,14 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./web/styles/base.css" />
-    <link rel="stylesheet" href="./web/styles/carousel.css" />
-    <link rel="stylesheet" href="./web/styles/navbar.css" />
-    <link rel="stylesheet" href="./web/styles/menu.css" />
-    <link rel="stylesheet" href="./web/styles/informs.css" />
-    <link rel="stylesheet" href="./web/styles/cards-informs.css" />
-    <link rel="stylesheet" href="./web/styles/footer.css" />
-    <link rel="stylesheet" href="./web/styles/our-causes.css">
+    <link rel="stylesheet" href="./src/web/styles/base.css" />
+    <link rel="stylesheet" href="./src/web/pages/home/carousel.css" />
+    <link rel="stylesheet" href="./src/web/styles/navbar.css" />
+    <link rel="stylesheet" href="./src/web/styles/menu.css" />
+    <link rel="stylesheet" href="./src/web/pages/home/informs.css" />
+    <link rel="stylesheet" href="./src/web/pages/home/cards-informs.css" />
+    <link rel="stylesheet" href="./src/web/styles/footer.css" />
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Projeto Final M2</title>
 </head>
@@ -24,20 +23,24 @@
         <nav id="navbar">
             <h1>Projeto Final M2</h1>
             <div class="navegation">
-                <a href="index.html">Página Inicial</a>
-                <a href="./web/pages/about.html">Sobre</a>
-                <a href="./web/pages/actions.html">Ações</a>
-                <a href="./web/pages/contact.html">Contato</a>
+                <a href="#" id="home">Página Inicial</a>
+                <a href="#" id="about">Sobre</a>
+                <a href="#" id="actions">Ações</a>
+                <a href="#" id="contact">Contato</a>
+                <a href="#" id="creators">Criadores</a>
+                <a href="#" id="donate">Doações</a>
             </div>
             <button id="menu-hamburger"><i class="ph-fill ph-list"></i></button>
         </nav>
         <div id="menu" class="menu">
             <ul>
-                <li id="line-menu"><a href="./index.html">Página Inicial</a></li>
-                <li id="line-menu"><a href="./web/pages/about.html">Sobre</a></li>
-                <li id="line-menu"><a href="./web/pages/actions.html">Ações</a></li>
-                <li id="line-menu"><a href="./web/pages/contact.html">Contato</a></li>
-                </u>
+                <li><a href="./index.html"id="home">Página Inicial</a></li>
+                <li><a href="./src/web/pages/about/about.html"id="about">Sobre</a></li>
+                <li><a href="./src/web/pages/actions/actions.html"id="actions">Ações</a></li>
+                <li><a href="./src/web/pages/contact/contact.html"id="contact">Contato</a></li>
+                <li><a href="./src/web/pages/creators/creators.html"id="creators">Criadores</a></li>
+                <li><a href="./src/web/pages/donate/donate.html"id="donate">Doações</a></li>
+            </ul>
         </div>
     </header>
     <section class="slider">
@@ -133,21 +136,12 @@
                 <li><a href=""><img src="./src/img/icons/icons8-instagram-48.png" alt=""></a></li>
                 <li><a href=""><img src="./src/img/icons/icons8-linkedin-48.png" alt=""></a></li>
             </ul>
-<<<<<<< HEAD:src/web/pages/home/index.html
-        </div>
-    </footer>
-    <footer class="copyright">
-        <div class="footer-copyright">
-            <p>&copy;2023 <a href="./web/pages/creators.html" id="creators">Squad 2</a>, Todos Os Direitos Reservamdos.</p>
-=======
->>>>>>> c72138268a3080414610704531bff673558b770d:index.html
         </div>
     </footer>
 
-    <script src="./web/main.js"></script>
-    <script src="./web/carousel.js"></script>
-    <script src="./web/menu.js"></script>
-    <script src="./web/navbar.js"></script>
+    <script src="./src/web/pages/home/carousel.js"></script>
+    <script src="./src/web/JS/navbar.js"></script>
+    <script src="./src/web/JS/menu.js"></script>
 </body>
 
 </html>

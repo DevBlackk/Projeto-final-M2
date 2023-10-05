@@ -6,7 +6,7 @@
 }
 
 .card-1 {
-    background: linear-gradient(rgba(194, 37, 37, 0.7), rgba(210, 48, 48, 0.7)),url(../../src/img/exemplo1.jpg);
+    background: linear-gradient(rgba(194, 37, 37, 0.7), rgba(210, 48, 48, 0.7)),url(../../../img/exemplo1.jpg);
     background-size: cover;
     width: 330px;
     border-radius: 15px;
@@ -18,7 +18,7 @@
 }
 
 .card-2 {
-    background: linear-gradient(rgba(195, 186, 20, 0.7), rgba(188, 175, 27, 0.7)),url(../../src/img/exemplo3.jpg);
+    background: linear-gradient(rgba(195, 186, 20, 0.7), rgba(188, 175, 27, 0.7)),url(../../../img/exemplo3.jpg);
     background-size: cover;
     width: 350px;
     border-radius: 20px;
@@ -29,7 +29,7 @@
     
 }
 .card-3 {
-    background: linear-gradient(rgba(19, 101, 42, 0.7), rgba(23, 105, 49, 0.7)),url(../../src/img/exemplo2jpg.jpg);
+    background: linear-gradient(rgba(19, 101, 42, 0.7), rgba(23, 105, 49, 0.7)),url(../../../img/exemplo2jpg.jpg);
     background-size: cover;
     width: 330px;
     border-radius: 15px;
