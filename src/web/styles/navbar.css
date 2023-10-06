@@ -1,7 +1,7 @@
 #navbar {
     z-index: 99;
     position: fixed;
-    background-color: rgba(0, 255, 255,.2);
+    background-color: rgba(223, 91, 43, .5);
     height: auto;
     display: flex;
     flex-direction: row;
