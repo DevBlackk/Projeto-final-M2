@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creators</title>
-    <link rel="stylesheet" href="../styles/creators.css">
+    <link rel="stylesheet" href="../creators/creators.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,17 +29,17 @@
     <main>
         <section class="text">
             <h2>Criadores</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur ab ipsa animi? Culpa assumenda, ut,
-                omnis voluptates pariatur rem asperiores dignissimos saepe, qui et amet facilis labore? Ut, dicta
-                quibusdam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non culpa rerum autem sit facere
-                explicabo accusantium. Deserunt maxime eius consectetur sint, nulla, aliquam iste numquam perferendis
-                provident quos eaque iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum
-                eaque ex velit rerum blanditiis asperiores nobis, dolorum non voluptatibus ad, consectetur eum possimus
-                aliquam laudantium. Nisi quidem eveniet laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Ea quos veritatis modi suscipit vel nesciunt tempore iure unde quis? Ab et, neque incidunt maiores
-                provident hic fugiat tenetur reiciendis quo! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Obcaecati nisi at magni perferendis modi id fugit sapiente consequuntur. Earum ut quas cupiditate,
-                dolore in fuga voluptates excepturi reiciendis accusamus temporibus.</p>
+            <p>Este projeto foi desenvolvido e pensado com muito carinho no intuito de ajudar pessoas necessitadas. A
+                desigualdade no Brasil e no mundo vem crescendo de tal maneira que se torna notável a miséria em
+                determinados pontos. A fome, a miséria, a desigualdade não são apenas problemas do poder público, mas
+                também problemas socioculturais.
+
+                <br>
+                "E o que eu tenho a ver com isso?" - TUDO. Viver em sociedade significa se preocupar com o coletivo, e
+                nós estamos aqui para começar de baixo, degrau por degrau, mudar a situação de famílias brasileiras que
+                vivem em instabilidade alimentar, falta de produtos de higiene básica e roupas. Você pode fazer parte
+                disso sendo um doador.
+            </p><span>FAÇA A DIFERENÇA.</span>
         </section>
         <section class="cards-creators">
             <div id="container">
@@ -48,9 +48,20 @@
                     <h4 class="name">Daniel Pereira</h4>
                     <p>Sou Daniel, líder do projeto!</p>
                     <div id="saibaMais">
-                        <button><i class="fa-solid fa-plus"></i>
+                        <button onclick="toggleCard()"><i class="fa-solid fa-plus"></i>
                         </button>
                     </div>
+                </div>
+
+                <div class="card-hidden">
+                    <img src="" alt="">
+                    <h4 class="name">Daniel Pereira</h4>
+                    <p>Venha conhecer meu trabalho!</p>
+                    <div id="links">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <button onclick="back()">Back</button>
                 </div>
                 <div class="card">
                     <img src="" alt="">
@@ -92,11 +103,11 @@
         </section>
         <section class="agradecimentos">
             <h4>Agradecimentos</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsam totam recusandae exercitationem
-                obcaecati quam nulla, sequi provident! Adipisci repellat temporibus architecto animi quod non maiores
-                accusamus totam nesciunt? Provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                provident, eos facere officiis voluptatem quam commodi nam harum magni asperiores et possimus
-                praesentium totam hic atque consequatur sequi reprehenderit? Neque.</p>
+            <p>"Primeiramente, agradecemos toda nossa equipe de programadores que trabalharam duramente na criação deste
+                site para que sua experiência fosse única. Agradecemos também à Equipe do Programadores do Amanhã, que
+                diariamente nos capacita no desenvolvimento de nossas hard e soft skills. Agradecemos a você,
+                contribuidor, que chegou até aqui e contribuiu para uma grande mudança em nosso país! Todos nós
+                agradecemos.".</p> <span>Obrigado.</span>
         </section>
     </main>
     <footer>
@@ -132,6 +143,7 @@
             </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
