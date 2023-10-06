@@ -1,15 +1,25 @@
-const btnHome = document.getElementById('home').addEventListener('click', () => {
-    window.location.href = './index.html';
-});
 
-const btnAbout = document.getElementById('about').addEventListener('click', () => {
-    window.location.href = './web/pages/about.html';
-})
+const menubar = document.getElementById('navbar');
 
-const btnActions = document.getElementById('actions').addEventListener('click', () => {
-    window.location.href = './web/pages/actions.html';
-})
-
-const btnContact = document.getElementById('contact').addEventListener('click', () => {
-    window.location.href = './web/pages/contact.html';
+menubar.addEventListener('click', (e) => {
+    switch (e.target.id) {
+        case 'home':
+            window.location.href = './index.html';
+            break;
+        case 'about':
+            window.location.href = './src/web/pages/about/about.html';
+            break;
+        case 'actions':
+            window.location.href = './src/web/pages/actions/actions.html';
+            break;
+        case 'contact':
+            window.location.href = './src/web/pages/contact/contact.html';
+            break;
+        case 'creators':
+            window.location.href = './src/web/pages/creators/creators.html';
+            break;
+        case 'donate':
+            window.location.href = './src/web/pages/donate/donate.html';
+            break;
+    }
 })
