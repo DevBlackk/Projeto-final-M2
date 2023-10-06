@@ -29,17 +29,7 @@
 }
 
 .right-side {
-    width: 50%;
     padding-top: 100px;
-}
-
-.vision {
-    color: #ff6b00;
-}
-
-.text {
-    width: 300px;
-    margin-bottom: 30px;
 }
 
 .buttons {
@@ -49,15 +39,9 @@
 }
 
 .button-donate {
-    display: flex;
-    justify-content: space-between;
     width: 350px;
     border-radius: 10px;
     border-style: none;
-    background-color: #e6e6e6;
-    cursor: pointer;
-    
-    padding: 20px;
 }
 .section-infos {
     width: 100%;
@@ -66,14 +50,6 @@
     display: flex;
     justify-content: center;
     padding: 80px 280px
-}
-
-.title_donate {
-    font-size: 28px;
-}
-
-.text_donate {
-    font-size: 15px;
 }
 
 .section-infos-mobile {
@@ -95,6 +71,7 @@
     font-family: lato;
     font-style: normal;
     font-weight: 800;
+    font-size: 24px;
     line-height: 116%;
     letter-spacing: .02em;
     color: #ff6b00;
@@ -195,8 +172,4 @@
 
 .step-four {
     max-width: 234px
-}
-
-@media (max-width: 468px) {
-    
 }
