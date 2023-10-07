@@ -1,7 +1,11 @@
 #navbar {
     z-index: 99;
     position: fixed;
+<<<<<<< HEAD
     background-color: rgb(24, 24, 67);
+=======
+    background-color: rgba(223, 91, 43, .5);
+>>>>>>> davidson
     height: auto;
     display: flex;
     flex-direction: row;
