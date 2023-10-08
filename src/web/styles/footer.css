@@ -31,18 +31,25 @@ iframe {
     border: none;
 }
 
-.footer-copyright > p > a {
-    text-decoration: none;
-    color: black;
+.footer-copyright {
+    color: #fff;
     font-weight: 700;
+    text-align: center;
+
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 450px) {
     footer {
         display: flex;
         flex-direction: column;
-        gap: 20px;
     }    
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
 
     .footer-pages {
         width: 100%;
@@ -57,9 +64,8 @@ iframe {
 
     iframe {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-self: flex-start;
+
+        padding: 15px 0;
     }
 
     .footer-social-media {
@@ -67,6 +73,7 @@ iframe {
         display: flex;
         flex-direction: column;
         justify-self: flex-start;
+        margin-bottom: 15px;
     }
 
     .footer-copyright {

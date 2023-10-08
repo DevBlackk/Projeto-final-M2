@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="./src/web/styles/navbar.css" />
     <link rel="stylesheet" href="./src/web/styles/menu.css" />
     <link rel="stylesheet" href="./src/web/pages/home/informs.css" />
-    <link rel="stylesheet" href="./src/web/pages/home/cards-informs.css" />
     <link rel="stylesheet" href="./src/web/styles/footer.css" />
-    <link rel="stylesheet" href="./src/web/pages/home/title-pages.css">
+    <link rel="stylesheet" href="./src/web/pages/home/slider.css">
+    <link rel="stylesheet" href="./src/web/pages/home/video.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Projeto Final M2</title>
 </head>
@@ -24,12 +24,12 @@
         <nav id="navbar">
             <h1>Projeto Final M2</h1>
             <div class="navegation">
-                <a href="#" id="home">Página Inicial</a>
-                <a href="#" id="about">Sobre</a>
-                <a href="#" id="actions">Ações</a>
-                <a href="#" id="contact">Contato</a>
-                <a href="#" id="creators">Criadores</a>
-                <a href="#" id="donate">Doações</a>
+                <a href="#" id="home">PÁGINA INICIAL</a>
+                <a href="#" id="about">SOBRE</a>
+                <a href="#" id="actions">AÇÕES</a>
+                <a href="#" id="contact">CONTATO</a>
+                <a href="#" id="creators">CRIADORES</a>
+                <a href="#" id="donate">DOACÕES</a>
             </div>
             <button id="menu-hamburger"><i class="ph-fill ph-list"></i></button>
         </nav>
@@ -44,47 +44,35 @@
             </ul>
         </div>
     </header>
-    <section class="title-page">
-        <h1>"Luz sobre a Desigualdade: Iluminando as Sombras da Sociedade"</h1>
+    <section class="slider">
+        <div class="slider-content">
+            
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="./src/img/exemplo1.jpg" alt="slide 1">
+                <img class="img-mobile" src="./src/img/exemplo1.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="./src/img/exemplo2jpg.jpg" alt="slide 3">
+                <img class="img-mobile" src="./src/img/exemplo2jpg.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="./src/img/exemplo3.jpg" alt="slide 3">
+                <img class="img-mobile" src="./src/img/exemplo3.jpg" alt="slide 3">
+            </div>
+
     </section>
-    <section class="card-informs">
-        <div class="card-informs-content">
-            <div class="card-informs">
-                <img src="./src/img/icons/desigualdade-social.svg" alt="Desigualdade Social" />
-            </div>
-            <div class="card-informs-title">
-                <h2>O que é desigualdade social e como medi-la: A página explica o conceito de desigualdade social e apresenta o índice de Gini como uma forma de quantificá-la.</h2>
-                <a href="https://edgeservices.bing.com/edgesvc/%5E1%5E">O que é desigualdade social e como medi-la</a>
-            </div> 
-        </div>
-        <div class="card-informs-content">
-            <div class="card-informs">
-                <img src="./src/img/icons/desigualdade-social.svg" alt="Desigualdade Social" />
-            </div>
-            <div class="card-informs-title">
-                <h2>Índice de Gini: Uma fórmula criada pelo estatístico italiano Corrado Gini para classificar a desigualdade social de 0 a 1, sendo 0 a condição perfeita e 1 o maior índice possível</h2>
-                <a href="https://brasilescola.uol.com.br/sociologia/desigualdade-social.htm#:~:text=A%20renda%2C%20por,base%20na%20renda">Índice de Gini</a>
-            </div>
-        </div>
-        <div class="card-informs-content">
-            <div class="card-informs">
-                <img src="./src/img/icons/desigualdade-social.svg" alt="Desigualdade Social" />
-            </div>
-            <div class="card-informs-title">
-                <h2>Ideologização da desigualdade social: Algumas teorias que tentam justificar ou explicar a desigualdade social, como o direito divino dos reis, o darwinismo social e a ideologia capitalista.</h2>
-                <a href="https://brasilescola.uol.com.br/sociologia/desigualdade-social.htm#:~:text=H%C3%A1%20uma%20ideologiza%C3%A7%C3%A3o,aceitem%20ser%20explorados.">Ideologização da desigualdade social</a>
-            </div>
-        </div>
-        <div class="card-informs-content"> 
-            <div class="card-informs">
-                <img src="./src/img/icons/desigualdade-social.svg" alt="Desigualdade Social" />
-            </div>
-            <div class="card-informs-title">
-                <h2>Socialismo científico: é a teoria de Karl Marx que expõe a desigualdade entre burguesia e proletariado e propõe a revolução do proletariado para implantar uma sociedade sem classes sociais.</h2>
-                <a href="https://brasilescola.uol.com.br/sociologia/desigualdade-social.htm#:~:text=socialismo%20cient%C3%ADfico%2C%20o,sociais%20seriam%20extintas.">Socialismo científico</a>
-            </div>
-        </div>
-        
+
+    <section class="video-inform">
+        <video class="myVideo" controls autoplay>
+            <source src="./src/img/videoplayback.mp4" type="video/mp4" />
+        </video>
+
     </section>
 
     <section class="donate"></section>
@@ -94,10 +82,12 @@
             <div class="footer-pages">
                 <h1>Company</h1>
                 <ul>
-                    <li><a href="" id="home">Página Inicial</a></li>
-                    <li><a href="" id="about">Sobre</a></li>
-                    <li><a href="" id="actions">Ações</a></li>
-                    <li><a href="" id="contact">Contato</a></li>
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="./src/web/pages/about/about.html">Sobre</a></li>
+                    <li><a href="./src/web/pages/actions/actions.html">Ações</a></li>
+                    <li><a href="./src/web/pages/contact/contact.html">Contato</a></li>
+                    <li><a href="./src/web/pages/creators/creators.html"id="creators">Criadores</a></li>
+                    <li><a href="./src/web/pages/donate/donate.html"id="donate">Doações</a></li>    
                 </ul>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29976.68712920237!2d-44.5881288!3d-20.0886961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1695766035159!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -111,7 +101,7 @@
                 </ul>
             </div>
         </div>
-        <div class="copyright">
+        <div class="footer-copyright">
             <p>Copyright © 2022, Squad 2. Todos os direitos reservados</p>
         </div>
     </footer>
@@ -119,6 +109,7 @@
     <script src="./src/web/pages/home/carousel.js"></script>
     <script src="./src/web/JS/navbar.js"></script>
     <script src="./src/web/JS/menu.js"></script>
+    <script src="./src/web/pages/home/slider.js""></script>
 </body>
 
 </html>
