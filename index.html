@@ -12,9 +12,8 @@
     <link rel="stylesheet" href="./src/web/styles/navbar.css" />
     <link rel="stylesheet" href="./src/web/styles/menu.css" />
     <link rel="stylesheet" href="./src/web/pages/home/informs.css" />
-    <link rel="stylesheet" href="./src/web/pages/home/cards-informs.css" />
     <link rel="stylesheet" href="./src/web/styles/footer.css" />
-    <link rel="stylesheet" href="./src/web/pages/home/title-pages.css">
+    <link rel="stylesheet" href="./src/web/pages/home/slider.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Projeto Final M2</title>
 </head>
@@ -44,49 +43,40 @@
             </ul>
         </div>
     </header>
-    <section class="title-page">
-        <h1>"Luz sobre a Desigualdade: Iluminando as Sombras da Sociedade"</h1>
-    </section>
-    <section class="card-informs">
-        <div class="card-informs-content">
-            <div class="card-informs">
-                <img src="./src/img/icons/desigualdade-social.svg" alt="Desigualdade Social" />
+    <section class="slider">
+        <div class="slider-content">
+            
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="./src/img/exemplo1.jpg" alt="slide 1">
+                <img class="img-mobile" src="./src/img/exemplo1.jpg" alt="slide 1">
             </div>
-            <div class="card-informs-title">
-                <h2>O que é desigualdade social e como medi-la: A página explica o conceito de desigualdade social e apresenta o índice de Gini como uma forma de quantificá-la.</h2>
-                <a href="https://edgeservices.bing.com/edgesvc/%5E1%5E">O que é desigualdade social e como medi-la</a>
-            </div> 
-        </div>
-        <div class="card-informs-content">
-            <div class="card-informs">
-                <img src="./src/img/icons/desigualdade-social.svg" alt="Desigualdade Social" />
+
+            <div class="slide-box">
+                <img class="img-desktop" src="./src/img/exemplo2jpg.jpg" alt="slide 3">
+                <img class="img-mobile" src="./src/img/exemplo2jpg.jpg" alt="slide 1">
             </div>
-            <div class="card-informs-title">
-                <h2>Índice de Gini: Uma fórmula criada pelo estatístico italiano Corrado Gini para classificar a desigualdade social de 0 a 1, sendo 0 a condição perfeita e 1 o maior índice possível</h2>
-                <a href="https://brasilescola.uol.com.br/sociologia/desigualdade-social.htm#:~:text=A%20renda%2C%20por,base%20na%20renda">Índice de Gini</a>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="./src/img/exemplo3.jpg" alt="slide 3">
+                <img class="img-mobile" src="./src/img/exemplo3.jpg" alt="slide 3">
             </div>
-        </div>
-        <div class="card-informs-content">
-            <div class="card-informs">
-                <img src="./src/img/icons/desigualdade-social.svg" alt="Desigualdade Social" />
-            </div>
-            <div class="card-informs-title">
-                <h2>Ideologização da desigualdade social: Algumas teorias que tentam justificar ou explicar a desigualdade social, como o direito divino dos reis, o darwinismo social e a ideologia capitalista.</h2>
-                <a href="https://brasilescola.uol.com.br/sociologia/desigualdade-social.htm#:~:text=H%C3%A1%20uma%20ideologiza%C3%A7%C3%A3o,aceitem%20ser%20explorados.">Ideologização da desigualdade social</a>
-            </div>
-        </div>
-        <div class="card-informs-content"> 
-            <div class="card-informs">
-                <img src="./src/img/icons/desigualdade-social.svg" alt="Desigualdade Social" />
-            </div>
-            <div class="card-informs-title">
-                <h2>Socialismo científico: é a teoria de Karl Marx que expõe a desigualdade entre burguesia e proletariado e propõe a revolução do proletariado para implantar uma sociedade sem classes sociais.</h2>
-                <a href="https://brasilescola.uol.com.br/sociologia/desigualdade-social.htm#:~:text=socialismo%20cient%C3%ADfico%2C%20o,sociais%20seriam%20extintas.">Socialismo científico</a>
-            </div>
-        </div>
-        
+
     </section>
 
+    <section class="video-inform">
+        <video id="video" width="500" height="450">
+            <source src="./src/img/videoplayback.mp4" type="video/mp4" />
+        </video>
+
+        <button onclick="playPause()"><i class="fa-solid fa-play-pause"></i></button>
+        <button ></button>
+        <button></button>
+        <button></button>
+    </section>
     <section class="donate"></section>
 
     <footer>
@@ -111,7 +101,7 @@
                 </ul>
             </div>
         </div>
-        <div class="copyright">
+        <div class="footer-copyright">
             <p>Copyright © 2022, Squad 2. Todos os direitos reservados</p>
         </div>
     </footer>
@@ -119,6 +109,7 @@
     <script src="./src/web/pages/home/carousel.js"></script>
     <script src="./src/web/JS/navbar.js"></script>
     <script src="./src/web/JS/menu.js"></script>
+    <script src="./src/web/pages/home/slider.js""></script>
 </body>
 
 </html>

@@ -5,5 +5,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+:root {
+    --primari-color: #000;
+    --secondary-color: #fff;
+    --third-color: #FF4500;
+    --fourth-color: #d63a25;
+}
+
 
 
