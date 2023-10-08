@@ -1,16 +1,16 @@
-
-
 .first-section {
     display: flex;
     justify-content: center;
     gap: 40px;
+
 }
 
 .left-side {
     width: 53%;
-    background-color: #ff6b00;
+    background-color: #ffffff;
     padding-top: 100px;
     padding-left: 100px;
+    padding-bottom: 40px;
 }
 
 .img-slide {
@@ -26,6 +26,10 @@
 .right-side {
     width: 50%;
     padding-top: 100px;
+}
+
+.description {
+    font-size: 20px;
 }
 
 .vision {
@@ -69,16 +73,6 @@
 
 .text_donate {
     font-size: 15px;
-}
-
-.section-infos-mobile {
-    width: 100%;
-    background-color: #662b00;
-    padding: 80px 0;
-    display: flex;
-    justify-content: center;
-    padding: 80px 280px;
-    display: none
 }
 
 .container-infos .flex-container-infos {
@@ -193,5 +187,90 @@
 }
 
 @media (max-width: 468px) {
+    .first-section {
+        flex-direction: column;
+    }
+
+    .left-side {
+        padding: 0;
+    }
+
+    .color {
+        height: 70px;
+        width: 100%;
+        background-color: #ff6b00;
+    }
+
+    .left-side {
+        width: 100%;
+        background-color: white;
+    }
+
+    .child-image {
+        height: 400px;
+        width: 85%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .vision {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .text {
+        margin-left: 35px;
+    }
+
+    .buttons {
+        padding-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-infos {
+        height: 200px;
+        width: 100%;
+    }
+
+    .left-div-infos {
+        width: 300px;
+        text-align: center;
+        margin-top: -30px;
+        margin-left: -60px;
+    }
+
+    .card-infos {
+        display: none;
+    }
+
+    .icons {
+        display: block;
+        width: 30px;
+        margin-bottom: 15px;
+    }
+
+    .icon-line {
+        display: block;
+        width: 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
     
+    .card-step {
+        flex-direction: column;
+    }
+
+    .caminho-da-doacao {
+        display: none;
+    }
+
+    .section-steps {
+        width: 100%;
+        padding: 0;
+    }
+
+    .left-div-steps {
+        width: 400px;
+    }
+
 }
