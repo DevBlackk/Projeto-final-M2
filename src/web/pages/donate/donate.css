@@ -1,63 +1,56 @@
 .first-section {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-
-}
-
-.left-side {
-    width: 53%;
-    background-color: #ffffff;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-bottom: 40px;
-}
-
-.img-slide {
-    display: flex;
-    flex-direction: column;
-}
-
-.child-image {
-    width: 555px;
-    height: 502px;
-}
-
-.right-side {
-    width: 50%;
+    text-align: center;
+    height: 540px;
     padding-top: 100px;
 }
 
-.description {
-    font-size: 20px;
-}
-
-.vision {
-    color: #ff6b00;
-}
-
-.text {
-    width: 300px;
-    margin-bottom: 30px;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.button-donate {
+.cards-donate {
     display: flex;
     justify-content: space-between;
-    width: 350px;
-    border-radius: 10px;
-    border-style: none;
-    background-color: #e6e6e6;
-    cursor: pointer;
-    
-    padding: 20px;
+    margin-top: 40px;
 }
+
+.card {
+
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+  }
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+   
+  .image {
+    margin-top: 70px;
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+  }
+
+  .hunger {
+    border-left: 3px solid #4895ff;
+  }
+   
+  .desi-social {
+    border-left: 3px solid #3bb54a;
+  }
+   
+  .human-help {
+    border-left: 3px solid #b3404a;
+  }
+
+
 .section-infos {
     width: 100%;
     background-color: #662b00;
@@ -188,55 +181,30 @@
 
 @media (max-width: 468px) {
     .first-section {
+        height: 100%;
+    }
+    
+    .cards-donate {
         flex-direction: column;
     }
 
-    .left-side {
-        padding: 0;
+    .card {
+        width: 280px;
     }
 
-    .color {
-        height: 70px;
-        width: 100%;
-        background-color: #ff6b00;
-    }
-
-    .left-side {
-        width: 100%;
-        background-color: white;
-    }
-
-    .child-image {
-        height: 400px;
-        width: 85%;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-
-    .vision {
-        width: 300px;
-        margin-left: 40px;
-    }
-
-    .text {
-        margin-left: 35px;
-    }
-
-    .buttons {
-        padding-left: 30px;
-        margin-bottom: 30px;
+    .image {
+        margin-top: 30px;
     }
 
     .section-infos {
         height: 200px;
-        width: 100%;
+        padding: 0;
     }
 
     .left-div-infos {
         width: 300px;
         text-align: center;
-        margin-top: -30px;
-        margin-left: -60px;
+        margin-top: 30px;
     }
 
     .card-infos {
@@ -273,4 +241,7 @@
         width: 400px;
     }
 
+    .card-steps {
+        margin-left: 30px;
+    }
 }
