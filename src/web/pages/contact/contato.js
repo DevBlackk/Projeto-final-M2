@@ -12,11 +12,18 @@ class ContactForm {
         let valid = true;
 
         this.inputs.forEach(input => {
-            if (input.value.trim() === '') {
-                input.style.border = '2px solid red';
-                valid = false;
-            } else {
-                input.style.border = '1px solid black';
+            switch (input.name) {
+                case 'name':
+                case 'email':
+                    if (input.value.trim() === '') {
+                        input.style.border = '2px solid red';
+                        valid = false;
+                    } else {
+                        input.style.border = '1px solid black';
+                    }
+                    break;
+                default:
+                    break;
             }
         });
 
@@ -36,3 +43,6 @@ class ContactForm {
         }
     }
 }
+
+// Inicializa o formulário de contato
+const contactForm = new ContactForm();
