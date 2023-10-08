@@ -1,0 +1,16 @@
+.video-inform {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.myVideo {
+    width: 75%;
+    border-radius: 25px;
+}
+

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./src/web/pages/home/informs.css" />
     <link rel="stylesheet" href="./src/web/styles/footer.css" />
     <link rel="stylesheet" href="./src/web/pages/home/slider.css">
+    <link rel="stylesheet" href="./src/web/pages/home/video.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Projeto Final M2</title>
 </head>
@@ -23,12 +24,12 @@
         <nav id="navbar">
             <h1>Projeto Final M2</h1>
             <div class="navegation">
-                <a href="#" id="home">Página Inicial</a>
-                <a href="#" id="about">Sobre</a>
-                <a href="#" id="actions">Ações</a>
-                <a href="#" id="contact">Contato</a>
-                <a href="#" id="creators">Criadores</a>
-                <a href="#" id="donate">Doações</a>
+                <a href="#" id="home">PÁGINA INICIAL</a>
+                <a href="#" id="about">SOBRE</a>
+                <a href="#" id="actions">AÇÕES</a>
+                <a href="#" id="contact">CONTATO</a>
+                <a href="#" id="creators">CRIADORES</a>
+                <a href="#" id="donate">DOACÕES</a>
             </div>
             <button id="menu-hamburger"><i class="ph-fill ph-list"></i></button>
         </nav>
@@ -68,15 +69,12 @@
     </section>
 
     <section class="video-inform">
-        <video id="video" width="500" height="450">
+        <video class="myVideo" controls autoplay>
             <source src="./src/img/videoplayback.mp4" type="video/mp4" />
         </video>
 
-        <button onclick="playPause()"><i class="fa-solid fa-play-pause"></i></button>
-        <button ></button>
-        <button></button>
-        <button></button>
     </section>
+
     <section class="donate"></section>
 
     <footer>
@@ -84,10 +82,12 @@
             <div class="footer-pages">
                 <h1>Company</h1>
                 <ul>
-                    <li><a href="" id="home">Página Inicial</a></li>
-                    <li><a href="" id="about">Sobre</a></li>
-                    <li><a href="" id="actions">Ações</a></li>
-                    <li><a href="" id="contact">Contato</a></li>
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="./src/web/pages/about/about.html">Sobre</a></li>
+                    <li><a href="./src/web/pages/actions/actions.html">Ações</a></li>
+                    <li><a href="./src/web/pages/contact/contact.html">Contato</a></li>
+                    <li><a href="./src/web/pages/creators/creators.html"id="creators">Criadores</a></li>
+                    <li><a href="./src/web/pages/donate/donate.html"id="donate">Doações</a></li>    
                 </ul>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29976.68712920237!2d-44.5881288!3d-20.0886961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1695766035159!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
