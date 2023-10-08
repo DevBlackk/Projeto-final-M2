@@ -211,11 +211,52 @@ footer ul{
         width: 50%;
         margin-bottom:  30px;
     }
+    header{
+        height: 7%;
+    }
+
+    .cards-creators #container{
+        display: flex;
+        flex-direction: column;
+    }
+    .navegation ul{
+        gap: .5rem;
+        display: flex;
+
+    }
+    .navegation ul li a{
+        font-size: 8px;
+    }
 }
 
 @media(max-width: 574px){
     .footer-col{
         width: 100%;
         margin-bottom:  30px;
+    }
+    header{
+        height: 7%;
+    }
+
+    .cards-creators #container{
+        display: flex;
+        flex-direction: column;
+    }
+    .navegation ul{
+        gap: .5rem;
+        display: flex;
+
+    }
+    .navegation ul li a{
+        font-size: 8px;
+    }
+    p{
+        font-size: 10px;
+    }
+    h1, h2, h3, h4{
+        font-size: 12px;
+    }
+    span{
+        font-weight: 10px;
     }
 }
