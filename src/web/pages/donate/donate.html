@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../../styles/navbar.css" />
   <link rel="stylesheet" href="../../styles/menu.css" />
   <link rel="stylesheet" href="donate.css">
+  <script src="https://unpkg.com/@pwhosphor-icons/web"></script>
 </head>
 
 <body>
@@ -16,70 +17,48 @@
     <nav id="navbar">
       <h1>Projeto Final M2</h1>
       <div class="navegation">
-        <a href="index.html">Página Inicial</a>
-        <a href="./web/pages/about.html">Sobre</a>
-        <a href="./web/pages/actions.html">Ações</a>
-        <a href="./web/pages/contact.html">Contato</a>
+        <a href="../../../../index.html" id="home">Página Inicial</a>
+        <a href="../../pages/hunger/hunger.html" id="about">Sobre</a>
+        <a href="../../pages/actions/actions.html" id="actions">Ações</a>
+        <a href="../../pages/contact/contact.html" id="contact">Contato</a>
+        <a href="../../pages/creators/creators.html" id="creators">Criadores</a>
+        <a href="../../pages/donate/donate.html" id="donate">Doações</a>
       </div>
       <button id="menu-hamburger"><i class="ph-fill ph-list"></i></button>
     </nav>
     <div id="menu" class="menu">
       <ul>
-        <li id="line-menu"><a href="./index.html">Página Inicial</a></li>
-        <li id="line-menu"><a href="./web/pages/about.html">Sobre</a></li>
-        <li id="line-menu"><a href="./web/pages/actions.html">Ações</a></li>
-        <li id="line-menu"><a href="./web/pages/contact.html">Contato</a></li>
-        </u>
+        <li><a href="../../../../index.html" id="home">Página Inicial</a></li>
+        <li><a href="../../pages/hunger/hunger.html" id="about">Sobre</a></li>
+        <li><a href="../../pages/actions/actions.html" id="actions">Ações</a></li>
+        <li><a href="../../pages/contact/contact.html" id="contact">Contato</a></li>
+        <li><a href="../../pages/creators/creators.html" id="creators">Criadores</a></li>
+        <li><a href="../../pages/donate/donate.html" id="donate">Doações</a></li>
+      </ul>
     </div>
   </header>
 
+  <div class="color"></div>
+
   <section class="first-section">
-    <div class="left-side">
-      <div class="img-slide">
-        <img class="child-image" src="../../../src/img/exemplo1.jpg"
-          alt="Imagem de uma criança sorrindo olhando para a camera"/>
+    <h1 class="title_donation">Doe para uma instituição</h1>
+    <div class="cards-donate">
+      <div class="card desi-social">
+        <h2>Desigualdade Social</h2>
+        <p>conheça a ong A.C.Camargo</p>
+        <a href="https://accamargo.colabore.org/cliqueparadoar/single_step"><img class="image" src="../../../img/icons/arrow-right.svg" alt="seta para direita" /></a>
       </div>
-      <div>
-        <p class="description">
-          O problema da <br> fome é <strong>urgente</strong>. <br> Alimente uma <br>
-          criança <strong>hoje!</strong>
-        </p>
-        <a href="#faq-section" class="button-left-side-first-section">
-          Quero saber mais <br />
-        </a>
+ 
+      <div class="card hunger">
+        <h2>Luta contra a Fome</h2>
+        <p>Conheça a ong CARE</p>
+        <a href="https://www.care.org/pt/"><img class="image" src="../../../img/icons/arrow-right.svg" alt="seta para direita" /></a>
       </div>
-    </div>
-    <div class="right-side" id="right-side-first-section">
-      <h1>Você e Visão Mundial #juntosPelasCrianças</h1>
-      <p>
-        Selecione o tamanho do impacto que você quer ter na alimentação de milhares de crianças brasileiras:
-      </p>
-      <div class="buttons">
-        <button class="button-donate" id="donate">
-          <img class="icon" src="./assets/icon-donation.svg" alt="Icone silhoueta de uma pessoa" />
-          <div class="flex-content">
-            <h1>R$30,00</h1>
-            <p>em ítens de cesta básica</p>
-          </div>
-          <img class="arrow-icon" id="seta" src="./assets/right-arrow.svg" alt="Icone seta para esquerda" />
-        </button>
-        <button class="button-donate">
-          <img class="icon" src="./assets/icon-donation.svg" alt="Icone silhoueta de duas pessoa" />
-          <div class="flex-content">
-            <h1>R$50,00</h1>
-            <p>em ítens de cesta básica</p>
-          </div>
-          <img class="arrow-icon" id="seta" src="./assets/right-arrow.svg" alt="Icone seta para esquerda" />
-        </button>
-        <button class="button-donate">
-          <img class="icon" src="./assets/icon-donation.svg"
-            alt="Icone silhoueta de duas pessoa com um simbolo de mais ao lado" />
-          <div class="flex-content">
-            <h1>R$80,00</h1>
-            <p>em ítens de cesta básica</p>
-          </div>
-          <img class="arrow-icon" id="seta" src="./assets/right-arrow.svg" alt="Icone seta para esquerda" />
-        </button>
+ 
+      <div class="card human-help">
+        <h2>Ajuda Humanitaria</h2>
+        <p>conheça a ong Médicos Sem Fronteiras</p>
+        <a href="https://doe.msf.org.br/doacao-mensal-pessoal?utm_source=GoogleAds_msf&utm_medium=links-patrocinados&utm_campaign=campanha-institucional&utm_content=7014Q0000029OD2&gclid=Cj0KCQjwpompBhDZARIsAFD_Fp8J5qfkUwF-Ax4-Z_2WpWeGMwv9TwlHGX5pt638gPvkE97vB8WQf64aAgtyEALw_wcB"><img class="image" src="../../../img/icons/arrow-right.svg" alt="seta para direita" /></a>
       </div>
     </div>
   </section>
@@ -88,7 +67,6 @@
     <div class="container-infos">
       <div class="flex-container-infos">
         <div class="left-div-infos">
-          <img src="assets/clock-icon.svg" alt="Icone de um relógio" />
           <h1>Não ter o que comer </br>
             é a realidade para mais </br>
             de 33 milhões de brasileiros</h1>
@@ -119,21 +97,21 @@
         <div class="left-div-steps">
           <h1>O caminho da sua doação</h1>
         </div>
-        <img src="../../../src/img/icons/caminho-da-doacao.svg" alt="Caminho da doação" class="caminho-da-doacao" />
+        <img src="../../../img/icons/caminho-da-doacao.svg" alt="Caminho da doação" class="caminho-da-doacao" />
         <div class="card-steps">
           <div class="card-step">
-            <img src="assets/one-person-icon.svg" alt="Icone de uma pessoa" class="icons" />
+            <img src="../../../img/icons/one-person-icon.svg" alt="Icone de uma pessoa" class="icons" />
             <p class="step-one">Você faz a sua doação, enquanto outras pessoas estão fazendo o mesmo</p>
-            <img src="assets/line.svg" alt="Icone de uma linha" class="icon-line" />
-            <img src="assets/Combined.svg" alt="Icone de uma pessoa" class="icons" />
+            <img src="../../../img/icons/line.svg" alt="Icone de uma linha" class="icon-line" />
+            <img src="../../../img/icons/Combined.svg" alt="Icone de uma pessoa" class="icons" />
             <p class="step-two">Nós juntamos todas essas doações, compramos os mantimentos e preparamos as cestas
               básicas</p>
-            <img src="assets/line.svg" alt="Icone de uma linha" class="icon-line" />
-            <img src="assets/basket.svg" alt="Icone de uma pessoa" class="icons" />
+            <img src="../../../img/icons/line.svg" alt="Icone de uma linha" class="icon-line" />
+            <img src="../../../img/icons/basket.svg" alt="Icone de uma pessoa" class="icons" />
             <p class="step-three">As cestas são entregues para as famílias das crianças atendidas pelos nossos
               projetos</p>
-            <img src="assets/line.svg" alt="Icone de uma linha" class="icon-line" />
-            <img src="assets/happy.svg" alt="Icone de uma pessoa" class="icons" />
+            <img src="../../../img/icons/line.svg" alt="Icone de uma linha" class="icon-line" />
+            <img src="../../../img/icons/happy.svg" alt="Icone de uma pessoa" class="icons" />
             <p class="step-four">Juntos, garantimos que milhares de crianças em situação de vulnerabilidade tenham
               acesso à alimentação básica</p>
           </div>

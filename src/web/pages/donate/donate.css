@@ -1,48 +1,56 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
-
 .first-section {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
-.left-side {
-    width: 53%;
-    background-color: #ff6b00;
-    padding-top: 100px;
-    padding-left: 100px;
-}
-
-.img-slide {
-    display: flex;
-    flex-direction: column;
-}
-
-.child-image {
-    width: 555px;
-    height: 502px;
-}
-
-.right-side {
+    text-align: center;
+    height: 540px;
     padding-top: 100px;
 }
 
-.buttons {
+.cards-donate {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
-.button-donate {
-    width: 350px;
-    border-radius: 10px;
-    border-style: none;
-}
+.card {
+
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+  }
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+   
+  .image {
+    margin-top: 70px;
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+  }
+
+  .hunger {
+    border-left: 3px solid #4895ff;
+  }
+   
+  .desi-social {
+    border-left: 3px solid #3bb54a;
+  }
+   
+  .human-help {
+    border-left: 3px solid #b3404a;
+  }
+
+
 .section-infos {
     width: 100%;
     background-color: #662b00;
@@ -52,14 +60,12 @@
     padding: 80px 280px
 }
 
-.section-infos-mobile {
-    width: 100%;
-    background-color: #662b00;
-    padding: 80px 0;
-    display: flex;
-    justify-content: center;
-    padding: 80px 280px;
-    display: none
+.title_donate {
+    font-size: 28px;
+}
+
+.text_donate {
+    font-size: 15px;
 }
 
 .container-infos .flex-container-infos {
@@ -71,7 +77,6 @@
     font-family: lato;
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
     line-height: 116%;
     letter-spacing: .02em;
     color: #ff6b00;
@@ -172,4 +177,71 @@
 
 .step-four {
     max-width: 234px
+}
+
+@media (max-width: 468px) {
+    .first-section {
+        height: 100%;
+    }
+    
+    .cards-donate {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 280px;
+    }
+
+    .image {
+        margin-top: 30px;
+    }
+
+    .section-infos {
+        height: 200px;
+        padding: 0;
+    }
+
+    .left-div-infos {
+        width: 300px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .card-infos {
+        display: none;
+    }
+
+    .icons {
+        display: block;
+        width: 30px;
+        margin-bottom: 15px;
+    }
+
+    .icon-line {
+        display: block;
+        width: 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .card-step {
+        flex-direction: column;
+    }
+
+    .caminho-da-doacao {
+        display: none;
+    }
+
+    .section-steps {
+        width: 100%;
+        padding: 0;
+    }
+
+    .left-div-steps {
+        width: 400px;
+    }
+
+    .card-steps {
+        margin-left: 30px;
+    }
 }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="../../styles/menu.css">
+    <link rel="stylesheet" href="../../styles/navbar.css">
+    <link rel="stylesheet" href="../../styles/base.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <h1>Projeto Final M2</h1>
+            <div class="navegation">
+                <a href="index.html">Página Inicial</a>
+                <a href="./web/pages/about.html">Sobre</a>
+                <a href="./web/pages/actions.html">Ações</a>
+                <a href="./web/pages/contact.html">Contato</a>
+            </div>
+            <button id="menu-hamburger"><i class="ph-fill ph-list"></i></button>
+        </nav>
+        <div id="menu" class="menu">
+            <ul>
+                <li id="line-menu"><a href="./index.html">Página Inicial</a></li>
+                <li id="line-menu"><a href="./web/pages/about.html">Sobre</a></li>
+                <li id="line-menu"><a href="./web/pages/actions.html">Ações</a></li>
+                <li id="line-menu"><a href="./web/pages/contact.html">Contato</a></li>
+                </u>
+        </div>
+    </header>
+    
+    <div class="container">
+        <h1 class="contact">Entre em Contato</h1>
+        <div class="contact-form">
+            <form action="#" method="post" id="contact-form">
+                <label for="name">Nome:</label>
+                <input class="input" type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input class="input" type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    
+<script src="../../JS/menu.js"></script>
+<script src="../../JS/navbar.js"></script>
+<script src="contato.js"></script>
+</body>
+</html>
