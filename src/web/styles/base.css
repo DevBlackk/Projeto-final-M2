@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -24,5 +25,17 @@ body {
     background-color: var(--ElectricOrange);
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
 
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--tomate-transparent);
+    border-radius: 20px;
+    border: none; 
+}
 
