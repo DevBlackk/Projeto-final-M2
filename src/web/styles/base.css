@@ -1,40 +1,41 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
 :root {
-    --GreenYellow: #ADFF2F;  
-    --Chartreuse: #7FFF00;     
-    --LawnGreen: #7CFC00;     
-    --Lime: #00FF00;
-    --LimeGreen: #32CD32;     
-    --PaleGreen: #98FB98;    
-    --LightGreen: #90EE90;
-    --LightGreen-Transparent: #90ee90a0;   
-    --MediumSpringGreen: #00FA9A;    
-    --SpringGreen: #00FF7F;
-    --MediumSeaGreen: #3CB371;     
-    --SeaGreen: #2E8B57;    
-    --ForestGreen: #228B22;    
-    --Green: #008000;    
-    --DarkGreen: #006400;     
-    --YellowGreen: #9ACD32;     
-    --OliveDrab: #6B8E23;  
-    --Olive: #808000;
-    --DarkOliveGreen: #556B2F;     
-    --MediumAquamarine: #66CDAA;    
-    --DarkSeaGreen: #8FBC8F;     
-    --LightSeaGreen: #20B2AA;     
-    --DarkCyan: #008B8B;     
-    --Teal: #008080;
+    --XGOrange: #ff6a00;
+    --siena: #ff6b00;
+    --jambo: #ff4500;
+    --RadicalOrange: #ff6103;
+    --ElectricOrange: #f0701a;
+    --corhex: #fa4e14;
+    --orginal: #fa4e14;
+    --escarlate: #ff2400;
+    --tomate: #ff6347;
+    --tomate-transparent: #ff6347a1;
+    --saturado: #e63d1f;
+    --urucum: #ec2300;
 }
 
 body {
-    background-color: var(--DarkSeaGreen);
+    background-color: var(--ElectricOrange);
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
 
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--tomate-transparent);
+    border-radius: 20px;
+    border: none; 
+}
 

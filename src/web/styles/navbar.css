@@ -1,14 +1,14 @@
 #navbar {
     z-index: 99;
     position: fixed;
-    background-color: rgba(223, 91, 43, .5);
+    background-color: #fff;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    padding: 10px 0;
+    padding: 25px 0;
 }
 
 nav > button {
@@ -24,7 +24,7 @@ nav > button {
 }
 
 button > i {
-    color: #ffffff;
+    color: #000;
     display: none;
     font-size: 25px;
 }
@@ -33,9 +33,9 @@ nav > h1 {
     width: 100%;
     display: flex;
     justify-self: flex-start;
-    margin-left: 150px;
-    font-size: 18pt;
-    color: #fff;
+    padding: 0 15px;
+    font-size: 15pt;
+    color: var(--tomate);
 }
 
 .navegation {
@@ -49,14 +49,14 @@ nav > h1 {
 
 .navegation > a {
     text-decoration: none;
-    color: #fff;
-    font-size: 20pt;
+    color: #000;
+    font-size: 15pt;
     font-weight: bold;
 }
 
 .navegation > a:hover {
     
-    border-bottom: yellow solid;
+    border-bottom: var(--jambo) solid;
     transition: 0.2s;
 }
 
@@ -82,7 +82,6 @@ nav > h1 {
     }
 
     nav > h1 {
-        margin-left: 10%;
+        margin-left: 25px;
     }
-    
 }
