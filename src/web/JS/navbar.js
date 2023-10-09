@@ -7,10 +7,7 @@ menubar.addEventListener('click', (e) => {
             window.location.href = './index.html';
             break;
         case 'about':
-            window.location.href = './src/web/pages/about/about.html';
-            break;
-        case 'actions':
-            window.location.href = './src/web/pages/actions/actions.html';
+            window.location.href = './src/web/pages/hunger/hunger.html';
             break;
         case 'contact':
             window.location.href = './src/web/pages/contact/contact.html';
