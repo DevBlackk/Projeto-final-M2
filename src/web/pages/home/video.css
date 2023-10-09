@@ -33,8 +33,6 @@
     border-radius: 25px;
 }
 
-
-
 @media (max-width: 800px) {
     .myVideo {
         width: 100%;
