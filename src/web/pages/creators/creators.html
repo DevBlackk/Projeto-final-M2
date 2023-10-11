@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creators</title>
+    <link rel="stylesheet" href="../../styles/menu.css">
+    <link rel="stylesheet" href="../../styles/navbar.css">
     <link rel="stylesheet" href="../creators/creators.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -13,18 +15,29 @@
 
 <body>
     <header>
-        <nav class="navegation">
-            <div>
-                <span class="span">Creators</span>.
-            </div>
-            <ul class="links-navegation">
-                <li><a href="../../../../index.html">Página Inicial</a></li>
-                <li><a href="../../pages/hunger/hunger.html">Sobre</a></li>
-                <li><a href="../../pages/actions/actions.html">Ações</a></li>
-                <li><a href="../../pages/contact/contact.html">Contato</a></li>
-            </ul>
+        <nav id="navbar">
+          <h1>Projeto Final M2</h1>
+          <div class="navegation">
+            <a href="../../../../index.html" id="home">Página Inicial</a>
+            <a href="../../pages/hunger/hunger.html" id="about">Sobre</a>
+            <a href="../../pages/actions/actions.html" id="actions">Ações</a>
+            <a href="../../pages/contact/contact.html" id="contact">Contato</a>
+            <a href="../../pages/creators/creators.html" id="creators">Criadores</a>
+            <a href="../../pages/donate/donate.html" id="donate">Doações</a>
+          </div>
+          <button id="menu-hamburger"><i class="ph-fill ph-list"></i></button>
         </nav>
-    </header>
+        <div id="menu" class="menu">
+          <ul>
+            <li><a href="../../../../index.html" id="home">Página Inicial</a></li>
+            <li><a href="../../pages/hunger/hunger.html" id="about">Sobre</a></li>
+            <li><a href="../../pages/actions/actions.html" id="actions">Ações</a></li>
+            <li><a href="../../pages/contact/contact.html" id="contact">Contato</a></li>
+            <li><a href="../../pages/creators/creators.html" id="creators">Criadores</a></li>
+            <li><a href="../../pages/donate/donate.html" id="donate">Doações</a></li>
+          </ul>
+        </div>
+      </header>
 
     <main>
         <section class="text">
@@ -44,7 +57,7 @@
         <section class="cards-creators">
             <div id="container">
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="img/Daniel.jpg" alt="">
                     <h4 class="name">Daniel Pereira</h4>
                     <p>Sou Daniel, líder do projeto!</p>
                     <div class="icons">
@@ -147,6 +160,8 @@
             </div>
         </div>
     </footer>
+    <script src="../../JS/menu.js"></script>
+    <script src="../../JS/navbar.js"></script>
     <script src="./script.js"></script>
 </body>
 
